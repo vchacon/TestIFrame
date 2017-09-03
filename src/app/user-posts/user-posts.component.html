@@ -1,0 +1,19 @@
+<div *ngFor="let post of posts">
+  <div class="col-lg-4">
+    <div class="panel panel-default">
+      <div class="list-group">
+        <div class="list-group-item">
+          <p class="list-group-item-text">Id</p>
+          <h4 class="list-group-item-heading">{{post.id}}</h4>
+        </div>
+        <div class="list-group-item">
+          <p class="list-group-item-text">Title</p>
+          <h4 class="list-group-item-heading">{{post.title}}</h4>
+        </div>
+        <div class="list-group-item">
+          <p class="list-group-item-text">{{post.body}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
